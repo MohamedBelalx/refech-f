@@ -1,0 +1,153 @@
+html, body{
+    min-height: 100vh;
+}
+#app{
+    height: 100vh;
+}
+.trigger {
+padding: 0 24px;
+font-size: 18px;
+line-height: 64px;
+cursor: pointer;
+transition: color 0.3s;
+}
+
+.trigger:hover {
+color: #1890ff;
+}
+
+.logo {
+height: 32px;
+margin: 16px;
+background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+background: #fff;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu{
+    padding: 0px 5px;
+}
+.ant-badge-count-sm {
+    font-size: 10px;
+}
+@media(max-width:935px) {
+    .date{
+        display: none;
+    }
+}
+.ant-layout-sider{
+    background: #050e2d;
+}
+.ant-menu-dark .ant-menu-submenu-active{
+    background-color: #23a565;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: #2b324c;
+    color: #23a565;
+    border-left: solid 1px #23a565;
+}
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+    background: #1f2642;
+}
+
+main{
+    border-radius: 10px;
+    border: 1px solid #c9cfd6;
+}
+
+
+
+
+/* If anyone has the same problem, I solve it with this: */
+
+.ant-picker-panels > *:first-child button.ant-picker-header-next-btn {
+  visibility: visible !important;
+}
+
+.ant-picker-panels > *:first-child button.ant-picker-header-super-next-btn {
+  visibility: visible !important;
+}
+
+.ant-picker-panels > *:last-child {
+  display: none;
+}
+
+.ant-picker-panel-container, .ant-picker-footer {
+  width: 280px !important;
+}
+
+.ant-picker-footer-extra > div {
+  flex-wrap: wrap !important; 
+}
+
+.ant-picker-range-separator,.ant-picker-input{
+    display:none
+}
+.ant-picker-input-active{
+    display: block !important;
+}
+
+.actions{
+    margin: 16px 0px;
+}
+.actions .ant-divider{
+    
+    background: #050e2d;
+}
+.actions .ant-btn{
+    color: #737b83;
+    border-radius: 5px;
+    background-color: #e1e2ed;
+    margin: 0px 3px;
+
+}
+.actions .ant-btn:hover, .ant-btn:focus{
+    color: #636a70;
+    border-color: #c9cfd6;
+
+}
+
+.anticon-ellipsis{
+    transform: rotate(90deg);
+}
+.actions h5{
+    text-decoration: underline;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.modal button{
+    background-color: #23a565;
+}
+
+.modal button:hover{
+    background-color: #1c8852;
+
+}
+
+.ant-modal-header{
+    background-color: #1f2642;
+}
+.ant-modal-title{
+    color: #fff;
+
+}
+
+
+.ant-modal-close-x{
+    color: white;
+}
+.nav-resource{
+    text-align: center;
+}
+.nav-resource p{
+    text-align: left;
+    margin: 16px;
+    font-size: 15px;
+}
+.nav-resource .ant-input-affix-wrapper.ant-input-affix-wrapper-lg{
+    width: 85%;
+    border-radius: 15px;
+}
